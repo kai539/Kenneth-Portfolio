@@ -16,8 +16,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="w-[418px] h-[418px] rounded-full border-8 border-stone-900">
-                    <h1>Helloo</h1>
-                    <h1>test</h1>
+                
             </div>
        </div>
     );
