@@ -1,0 +1,246 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: Outfit;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    font-family: Outfit;     
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 22px 0%; 
+    gap: 501px;
+  }
+  .header{
+    display: flex;
+    width: 1424px;
+    padding: 33px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 368px;
+      
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+  }
+  .nav-link{
+     
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .nav-link a{
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1E1E1E;
+  }
+  .nav-link a:hover{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #063CFB;
+  }
+   
+  
+  .icons{
+    display: flex;
+  width: 100px;
+  padding: 0px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  flex-shrink: 0;
+  fill: #1E1E1E;
+  }
+  section{
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .greetings{
+    display: flex;
+  align-items: center;
+  color: #1E1E1E;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1E1E1E;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    height: 89px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  .descriptions{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+    color: #1E1E1E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  p{
+    color: #1E1E1E;
+    font-family: Outfit;
+    font-size: 25.977px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  h4{
+    color: #1E1E1E;
+    font-family: Roboto Flex;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .tech-stack{
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .tech{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+  .image-container{
+    border-radius: 354px;
+    border: 7px solid #1E1E1E;
+    width: 354px;
+    height: 354px;
+  }
+  .information{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 150px 100px 200px;
+    gap: 10px;
+  }
+  .about{
+    padding-top: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-image{
+    background-color: white;
+    text-decoration: none;
+    font-family: Outfit;     
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 22px 0%;
+    width: 472px;
+    height: 393px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #1E1E1E;
+    padding: 250px 130px 100px 200px;
+  }
+  .info{
+    padding-top: 150px;
+    display: flex;
+    height: 390px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .span{
+    color: #063CFB;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .about-title{
+    color: #1E1E1E;
+    font-family: Outfit;
+    font-size: 25.254px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .about-description{
+    color: #1E1E1E;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 566px;
+  }
+  .portfolio{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 190px 150px 100px 200px;
+    gap: 51px;
+  }
+  .portfolio-image{
+    padding: 70px 130px 100px 200px;
+  }
+  .portfolio-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .portfolio-item .a{
+    font-family: Roboto Flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1E1E1E;
+  }
+  .portfolio-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    font-family: Outfit;     
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 22px 0%; 
+    gap: 4px;
+  }
+  
